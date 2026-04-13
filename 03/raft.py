@@ -23,7 +23,7 @@ class RaftNode:
     def _random_timeout(self) -> float:
         return time.time() + random.uniform(1.0, 2.0)
 
-    def on_heartbeat(self, term: int):
+    def on_heartbeat(self, term: int):  
         if term >= self.current_term:
             self.current_term = term
             self.state = State.FOLLOWER
