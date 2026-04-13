@@ -19,7 +19,7 @@ Protocol) dan PTP (Precision Time Protocol).
  ![Clone Repository](NetTime.png)
 
 1. Install NetTime pada link berikut https://www.timesynctool.com/
-2. Penjelasan
+2. Sinkronisasi waktu dilakukan menggunakan aplikasi NetTime yang terhubung ke NTP server. Proses ini bertujuan untuk menyamakan waktu komputer dengan server sehingga semua sistem memiliki waktu yang konsisten. Hal ini penting dalam sistem terdistribusi agar urutan kejadian dapat ditentukan dengan benar.
 
 ### II. Vector Clock
 Vector clock digunakan untuk pengurutan event dalam suatu sistem terdistribusi. Berikutadalah contoh source code untuk vector clock (ada pada source code: vclocks.py). Source code diambil dari banyak sumber di Internet.
