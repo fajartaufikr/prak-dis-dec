@@ -1,4 +1,4 @@
-# Praktikum Minggu 3 - Konsistensi dan Replikasi pada Sistem Terdistribusi
+# Praktikum Minggu 4 - Konsistensi dan Replikasi pada Sistem Terdistribusi
 
 Nama  : FAJAR TAUFIK ROMADHON
 
