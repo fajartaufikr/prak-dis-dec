@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package mybookdb;
+
+message BukuRequest {
+    int32 id = 1;
+}
+
+message BukuResponse {
+    int32 id = 1;
+    string kode_rak = 2;
+    string judul = 3;
+    float harga = 4;
+    bool apakah_tersedia = 5;
+}
+
+service BukuService {
+    rpc GetBuku (BukuRequest) returns (BukuResponse);
+}
